@@ -1,4 +1,4 @@
-import { IUser } from 'states/users'
+import { IUser } from 'types/user'
 
 export const sortByDate = (users: IUser[], order = 'asc') => {
   if (order === 'desc') {
