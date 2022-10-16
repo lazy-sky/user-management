@@ -13,6 +13,10 @@ const UserListWrapper = styled.div`
   max-height: calc(40vh - 80px);
   background: ${({ theme }) => theme.colors.white};
 
+  ${({ theme }) => theme.media.desktop`
+    max-height: 80vh;
+  `}
+
   .headerRow {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -30,7 +34,6 @@ const UserListWrapper = styled.div`
   }
 
   ul {
-    max-height: calc(50vh - 100px);
     overflow-y: auto;
 
     li {
