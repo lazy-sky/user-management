@@ -1,5 +1,7 @@
 import { useSelector } from 'react-redux'
 import styled from 'styled-components'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 import { toggleUserChecked } from 'services/data'
 import { getUsers } from 'states/users'
@@ -30,6 +32,9 @@ const SaveButton = () => {
     for (const user of users) {
       toggleUserChecked(user.id, user.checked)
     }
+
+    const MySwal = withReactContent(Swal)
+    MySwal.fire('저장되었습니다.')
   }
   return (
     <ButtonWrapper>
