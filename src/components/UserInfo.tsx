@@ -8,6 +8,10 @@ import defaultProfile from 'assets/images/default.png'
 const UserInfoStyle = styled.div`
   background: ${({ theme }) => theme.colors.white};
 
+  ${({ theme }) => theme.media.desktop`
+    width: 300px;
+  `}
+
   .profileBackground {
     background: ${({ theme }) => hexToRGBA(theme.colors.purple, 0.5)};
     position: relative;
