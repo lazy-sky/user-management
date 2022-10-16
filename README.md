@@ -103,7 +103,11 @@ npm start # client, server와 별개의 터미널 탭에서
 
 #### Desktop
 
+![desktop](https://user-images.githubusercontent.com/47808461/196042790-4105209b-0222-48fc-960f-c1d4b2856412.gif)
+
 #### Mobile
+
+![mobile](https://user-images.githubusercontent.com/47808461/196042792-a3c386d4-9d73-4cec-9d03-405a1bb00e2a.gif)
 
 ## Tech & Libraries
 
