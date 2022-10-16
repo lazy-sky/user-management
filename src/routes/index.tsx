@@ -15,10 +15,12 @@ const App = () => {
   return (
     <Wrapper>
       <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/detail' element={<Detail />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/detail' element={<Detail />} />
+        </Routes>
+      </main>
     </Wrapper>
   )
 }
